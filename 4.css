@@ -1,0 +1,225 @@
+body {
+  background-image: url("image/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.heros {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  margin: 80px auto;
+  justify-content: center;
+}
+
+.heros .hero {
+  background-color: grey;
+  width: 80px;
+  height: 85px;
+  margin: 5px;
+  transform: skewX(-10deg);
+  border: 3px solid white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition:
+    transform .1s,
+    background-color .6s
+}
+
+.heros .hero:hover {
+  background-color: orange;
+  transform: skewX(-10deg) scale(1.3);
+}
+
+.heros .hero:nth-child(1) .image {
+  background-image: url("/image/1yi.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(2) .image {
+  background-image: url("/image/2vi.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(3) .image {
+  background-image: url("/image/3viego.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(4) .image {
+  background-image: url("/image/4lee.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(5) .image {
+  background-image: url("/image/5wukong.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(6) .image {
+  background-image: url("/image/6gragas.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(7) .image {
+  background-image: url("/image/7nocturne.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(8) .image {
+  background-image: url("/image/8diana.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(9) .image {
+  background-image: url("/image/9elise.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(10) .image {
+  background-image: url("/image/10jarvan.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(11) .image {
+  background-image: url("/image/11leblanc.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(12) .image {
+  background-image: url("/image/12sylas.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(13) .image {
+  background-image: url("/image/13zhao.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(14) .image {
+  background-image: url("/image/14bel\'veth.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(15) .image {
+  background-image: url("/image/15nidalee.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(16) .image {
+  background-image: url("/image/16sejuani.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(17) .image {
+  background-image: url("/image/17voli.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(18) .image {
+  background-image: url("/image/18lillia.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(19) .image {
+  background-image: url("/image/19poppy.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+
+.heros .hero:nth-child(20) .image {
+  background-image: url("/image/20rammus.webp");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  transform: skewX(10deg);
+  border-radius: 30px;
+}
+.heros .hero .image {
+
+}
+
+.logo {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.logo image {
+  width: 100%;
+}
